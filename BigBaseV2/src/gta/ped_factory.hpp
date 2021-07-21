@@ -5,8 +5,8 @@
 class CPed
 {
 public:
-	char m_padding[0x10B8];
-	CPlayerInfo *m_playerinfo;
+	char m_padding[0x10C8];
+	CPlayerInfo *m_player_info;
 };
 #pragma pack(pop)
 
